@@ -42,7 +42,7 @@ li{
 
 <p><b>My Best Friends :</b></p>
 <?php
-	$filename = 'friends.txt';
+	$filename = 'amis.txt';
 	if(isset($_POST['name'])) {
 		$file = fopen( $filename, "a" );
 		fwrite( $file, $_POST['name']);
